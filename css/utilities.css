@@ -1,0 +1,69 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+} 
+.btn{
+ padding: 0.8rem 2.5rem;
+ font-size: 1rem;
+ font-weight: 600;
+ border:2px solid transparent;
+ outline: none;
+ cursor: pointer;
+ text-transform: uppercase;
+ transition: all .3s ease;
+}
+.btn-primary{
+    background: var(--primary);
+    color: var(--dark);
+}
+.btn-primary:hover{
+    background-color: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.btn-secondry{
+    background-color: transparent;
+    border-color: var(--primary);
+    color: var(--primary); 
+}
+.btn-secondry:hover{
+  background-color: var(--primary);
+  color: white;
+}
+.flex-1{
+    flex: 1;
+}
+.justify-center{
+ justify-content: center;
+
+}
+ .freelancer{
+    text-align: center;
+     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/camera.png);
+    color: var(--pure);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 80%,0 100%);
+    padding-bottom: 14rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+.freelancer h1{
+   font-size: 2rem;
+  
+   margin-bottom: 0.5rem;
+}
+.freelancer p{
+ margin: 2rem;
+ font-family:  sans-serif;
+}
+.freelancer button{
+    margin-bottom: 2rem;
+}
+.mobile-nav h1{
+color: aqua;
+
+}
